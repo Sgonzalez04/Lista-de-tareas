@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista tareas</title>
+</head>
+<body style="background-color: #333;">
+    <h1 style="text-align: center; color: white;">Lista de tareas</h1>
+    <div>
+        <input style="display: block; margin: 0 auto; background-color: bisque;" type="textarea" id="nuevaTarea" placeholder="Escribir una nueva tarea">
+        <br>
+        <button style="display: block; margin: 0 auto; background-color: #333; color: white;" onclick="agregarTarea()">Agregar</button>
+    </div>
+    <br>
+    <ul style="list-style-type: none; color: white; text-align: center;" id="listaTareas" > <!-- no se muestra li -->
+        <!-- Aquí se mostrarán las tareas -->
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
